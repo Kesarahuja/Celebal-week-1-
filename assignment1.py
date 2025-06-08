@@ -11,3 +11,12 @@ lower_triangle(5)
 # ***
 # ****
 # *****
+
+#LOWER TRIANGULAR 
+def inverted_upper_triangle(n):
+    for i in range(n, 0, -1):
+        for j in range(i):
+            print('*', end=' ')
+        print() 
+n=5
+inverted_upper_triangle(n)
