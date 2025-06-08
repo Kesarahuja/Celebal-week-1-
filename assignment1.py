@@ -1,4 +1,4 @@
-#UPPER TRIANGULAR
+#LOWER TRIANGULAR
 def lower_triangle(n):
     for i in range(1, n + 1):
         print('*' * i)
@@ -14,7 +14,7 @@ lower_triangle(5)
 
 
 
-#LOWER TRIANGULAR 
+#UPPER TRIANGULAR 
 def inverted_upper_triangle(n):
     for i in range(n, 0, -1):
         for j in range(i):
